@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaia Spriter</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="banner">
+    <div id="banner-logo">
+      <span class="app-title">Gaia Spriter</span>
+    </div>
+    <div id="banner-main">
+      <label for="bundle-selector" class="banner-label">Bundle</label>
+      <select id="bundle-selector" disabled>
+        <option value="">Loading payload...</option>
+      </select>
+      <span id="bundle-info" class="banner-info"></span>
+    </div>
+  </header>
+
+  <main id="layout">
+    <section id="set-list-panel" class="panel">
+      <div id="set-list" class="text-list" tabindex="0"></div>
+    </section>
+
+    <section id="timeline-panel" class="panel">
+      <div id="timeline-bar">
+        <button id="btn-play" class="mode-btn" title="Play / pause the selected set" disabled>&#x25B6; Play</button>
+        <span id="timeline-title"></span>
+      </div>
+      <div id="timeline" class="timeline-strip"></div>
+    </section>
+
+    <div id="left-lower">
+      <section id="parts-panel" class="panel">
+        <div id="parts-list" class="text-list" tabindex="0"></div>
+      </section>
+      <section id="properties-panel" class="panel">
+        <div id="properties"></div>
+      </section>
+    </div>
+
+    <section id="preview-panel" class="panel">
+      <canvas id="preview-canvas"></canvas>
+    </section>
+
+    <aside id="right-lower">
+      <section id="gfx-panel" class="panel">
+        <div id="gfx-tabs">
+          <button id="btn-page1" class="mode-btn active" data-page="0">Page 1</button>
+          <button id="btn-page2" class="mode-btn" data-page="1">Page 2</button>
+          <span id="gfx-info" class="banner-info"></span>
+        </div>
+        <canvas id="gfx-canvas" width="256" height="256"></canvas>
+      </section>
+      <section id="palette-panel" class="panel">
+        <canvas id="palette-canvas" width="256" height="128"></canvas>
+      </section>
+    </aside>
+  </main>
+
+  <script src="dist/app.iife.js"></script>
+</body>
+</html>

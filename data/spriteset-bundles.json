@@ -1,0 +1,2018 @@
+{
+  "game": "illusion-of-gaia",
+  "defaults": {
+    "page1": {
+      "file": "gfx_000000",
+      "srcOffset": 0,
+      "length": 8192,
+      "dstOffset": 0
+    },
+    "palette": "fx_palette_198020"
+  },
+  "bundles": [
+    {
+      "id": "inventory_spritemap",
+      "label": "inventory_spritemap",
+      "collection": "inventory_spritemap",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spm_angel_sprites",
+      "label": "spm_angel_sprites",
+      "collection": "spm_angel_sprites",
+      "source": "spritemap",
+      "scenes": [
+        107,
+        108,
+        116,
+        117
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_angel_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_angel_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_angkor_interior_sprites",
+      "label": "spm_angkor_interior_sprites",
+      "collection": "spm_angkor_interior_sprites",
+      "source": "spritemap",
+      "scenes": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        183,
+        184,
+        185,
+        187,
+        188,
+        189,
+        190
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_angkor_interior_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_angkor_interior_sprites",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_angkor_outer_sprites",
+      "label": "spm_angkor_outer_sprites",
+      "collection": "spm_angkor_outer_sprites",
+      "source": "spritemap",
+      "scenes": [
+        176,
+        182,
+        186
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_angkor_outer_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_angkor_outer_sprites",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_babel_spaceflight_sprites",
+      "label": "spm_babel_spaceflight_sprites",
+      "collection": "spm_babel_spaceflight_sprites",
+      "source": "spritemap",
+      "scenes": [
+        231
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_babel_spaceflight_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_babel_spaceflight_sprites",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_boot_logos",
+      "label": "spm_boot_logos",
+      "collection": "spm_boot_logos",
+      "source": "spritemap",
+      "scenes": [
+        251
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_boot_logos",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_boot_logos",
+          "srcColor": 0,
+          "count": 80,
+          "dstColor": 0
+        }
+      ]
+    },
+    {
+      "id": "spm_castle_sprites",
+      "label": "spm_castle_sprites",
+      "collection": "spm_castle_sprites",
+      "source": "spritemap",
+      "scenes": [
+        10
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_castle_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_castle_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_castoth",
+      "label": "spm_castoth #1 (scene $29)",
+      "collection": "spm_castoth",
+      "source": "spritemap",
+      "scenes": [
+        41
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_castoth",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_castoth",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_castoth#2",
+      "label": "spm_castoth #2 (scene $F2)",
+      "collection": "spm_castoth",
+      "source": "spritemap",
+      "scenes": [
+        242
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_castoth",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_castoth_dark",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_cliff_enemies",
+      "label": "spm_cliff_enemies",
+      "collection": "spm_cliff_enemies",
+      "source": "spritemap",
+      "scenes": [
+        27,
+        29,
+        30,
+        32,
+        37,
+        38,
+        39,
+        40
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_cliff_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_cliff_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_credits",
+      "label": "spm_credits",
+      "collection": "spm_credits",
+      "source": "spritemap",
+      "scenes": [
+        249
+      ],
+      "page1": {
+        "file": "gfx_inventory_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_credits_actors2",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "palette_1F3333",
+          "srcColor": 0,
+          "count": 64,
+          "dstColor": 16
+        },
+        {
+          "file": "palette_1E65F3",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        },
+        {
+          "file": "palette_1E66D3",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        },
+        {
+          "file": "palette_1E67B3",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_dao_sprites",
+      "label": "spm_dao_sprites",
+      "collection": "spm_dao_sprites",
+      "source": "spritemap",
+      "scenes": [
+        191,
+        195,
+        197,
+        198,
+        199,
+        201
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_dao_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_dao_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_darkspace_sprites",
+      "label": "spm_darkspace_sprites #1 (scene $10)",
+      "collection": "spm_darkspace_sprites",
+      "source": "spritemap",
+      "scenes": [
+        16
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_darkspace_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_darkspace_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_darkspace_sprites#2",
+      "label": "spm_darkspace_sprites #2 (scene $E6)",
+      "collection": "spm_darkspace_sprites",
+      "source": "spritemap",
+      "scenes": [
+        230
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_darkspace_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_darkspace_sprites",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_descent_sprites",
+      "label": "spm_descent_sprites",
+      "collection": "spm_descent_sprites",
+      "source": "spritemap",
+      "scenes": [
+        88,
+        89,
+        220
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_descent_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_descent_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_ending_class_sprites",
+      "label": "spm_ending_class_sprites",
+      "collection": "spm_ending_class_sprites",
+      "source": "spritemap",
+      "scenes": [
+        240
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_ending_class_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_ending_class_sprites",
+          "srcColor": 0,
+          "count": 128,
+          "dstColor": 0
+        }
+      ]
+    },
+    {
+      "id": "spm_ending_credits_sprites",
+      "label": "spm_ending_credits_sprites",
+      "collection": "spm_ending_credits_sprites",
+      "source": "spritemap",
+      "scenes": [
+        247
+      ],
+      "page1": {
+        "file": "gfx_ending_credits",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spm_euro_geezers_sprites",
+      "label": "spm_euro_geezers_sprites",
+      "collection": "spm_euro_geezers_sprites",
+      "source": "spritemap",
+      "scenes": [
+        146,
+        149
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_euro_geezers_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_euro_geezers_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_euro_sprites",
+      "label": "spm_euro_sprites",
+      "collection": "spm_euro_sprites",
+      "source": "spritemap",
+      "scenes": [
+        145,
+        147,
+        148,
+        151,
+        152,
+        153,
+        155,
+        156
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_euro_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_euro_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_freejia_sprites",
+      "label": "spm_freejia_sprites",
+      "collection": "spm_freejia_sprites",
+      "source": "spritemap",
+      "scenes": [
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        71,
+        90,
+        92,
+        157
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_freejia_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_freejia_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_garden_enemies",
+      "label": "spm_garden_enemies #1 (scene $4C $4D $4F +2)",
+      "collection": "spm_garden_enemies",
+      "source": "spritemap",
+      "scenes": [
+        76,
+        77,
+        79,
+        81,
+        83
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_garden_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_garden_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_garden_enemies#2",
+      "label": "spm_garden_enemies #2 (scene $4E $50 $52 +2)",
+      "collection": "spm_garden_enemies",
+      "source": "spritemap",
+      "scenes": [
+        78,
+        80,
+        82,
+        84,
+        86
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_garden_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_garden_enemies_alt",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_goldship_sprites",
+      "label": "spm_goldship_sprites",
+      "collection": "spm_goldship_sprites",
+      "source": "spritemap",
+      "scenes": [
+        44,
+        46
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_goldship_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_goldship_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_greatwall_sprites",
+      "label": "spm_greatwall_sprites",
+      "collection": "spm_greatwall_sprites",
+      "source": "spritemap",
+      "scenes": [
+        130,
+        131,
+        133,
+        134,
+        135,
+        136
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_greatwall_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_greatwall_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_itory_sprites",
+      "label": "spm_itory_sprites",
+      "collection": "spm_itory_sprites",
+      "source": "spritemap",
+      "scenes": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        42,
+        47,
+        48
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_itory_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_itory_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_kress_sprites",
+      "label": "spm_kress_sprites",
+      "collection": "spm_kress_sprites",
+      "source": "spritemap",
+      "scenes": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_kress_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_kress_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_mine_sprites",
+      "label": "spm_mine_sprites #1 (scene $3D $3E $3F +7)",
+      "collection": "spm_mine_sprites",
+      "source": "spritemap",
+      "scenes": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_mine_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_mine_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_mine_sprites#2",
+      "label": "spm_mine_sprites #2 (scene $E9)",
+      "collection": "spm_mine_sprites",
+      "source": "spritemap",
+      "scenes": [
+        233
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_mine_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_mine_sprites_alt",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_mu_enemies",
+      "label": "spm_mu_enemies",
+      "collection": "spm_mu_enemies",
+      "source": "spritemap",
+      "scenes": [
+        92,
+        93,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_mu_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_mu_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_mummyqueen",
+      "label": "spm_mummyqueen #1 (scene $DD)",
+      "collection": "spm_mummyqueen",
+      "source": "spritemap",
+      "scenes": [
+        221
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_mummyqueen",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_mummyqueen",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_mummyqueen#2",
+      "label": "spm_mummyqueen #2 (scene $F6)",
+      "collection": "spm_mummyqueen",
+      "source": "spritemap",
+      "scenes": [
+        246
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_mummyqueen",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_mummyqueen_dark",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_nazca_sprites",
+      "label": "spm_nazca_sprites",
+      "collection": "spm_nazca_sprites",
+      "source": "spritemap",
+      "scenes": [
+        73,
+        75,
+        91,
+        103,
+        104,
+        105,
+        106,
+        121,
+        127,
+        139,
+        150,
+        196,
+        200,
+        222,
+        223,
+        224,
+        225,
+        227,
+        228,
+        229
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_nazca_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_nazca_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_overworld_sprites",
+      "label": "spm_overworld_sprites",
+      "collection": "spm_overworld_sprites",
+      "source": "spritemap",
+      "scenes": [
+        254
+      ],
+      "page1": {
+        "file": "gfx_overworld_actors",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_overworld_font",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_overworld_sprites",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_prison_enemies",
+      "label": "spm_prison_enemies",
+      "collection": "spm_prison_enemies",
+      "source": "spritemap",
+      "scenes": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        90
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_prison_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_prison_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_prologue_prophecy_sprites",
+      "label": "spm_prologue_prophecy_sprites",
+      "collection": "spm_prologue_prophecy_sprites",
+      "source": "spritemap",
+      "scenes": [
+        140,
+        142
+      ],
+      "page1": {
+        "file": "gfx_prologue_prophecy_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_overworld_font",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_prologue_prophecy_sprites",
+          "srcColor": 0,
+          "count": 128,
+          "dstColor": 0
+        }
+      ]
+    },
+    {
+      "id": "spm_pyramid_puzzle_sprites",
+      "label": "spm_pyramid_puzzle_sprites",
+      "collection": "spm_pyramid_puzzle_sprites",
+      "source": "spritemap",
+      "scenes": [
+        205
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_pyramid_puzzle_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_pyramid_puzzle_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_pyramid_sprites",
+      "label": "spm_pyramid_sprites",
+      "collection": "spm_pyramid_sprites",
+      "source": "spritemap",
+      "scenes": [
+        204,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_pyramid_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_pyramid_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_ruins_enemies",
+      "label": "spm_ruins_enemies",
+      "collection": "spm_ruins_enemies",
+      "source": "spritemap",
+      "scenes": [
+        31,
+        33,
+        34,
+        35,
+        36
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_ruins_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_ruins_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_sandfanger",
+      "label": "spm_sandfanger #1 (scene $8A)",
+      "collection": "spm_sandfanger",
+      "source": "spritemap",
+      "scenes": [
+        138
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_sandfanger",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_sandfanger",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_sandfanger#2",
+      "label": "spm_sandfanger #2 (scene $F5)",
+      "collection": "spm_sandfanger",
+      "source": "spritemap",
+      "scenes": [
+        245
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_sandfanger",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_sandfanger_dark",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_sc02_main_characters",
+      "label": "spm_sc02_main_characters",
+      "collection": "spm_sc02_main_characters",
+      "source": "spritemap",
+      "scenes": [
+        2,
+        6,
+        8,
+        19,
+        43,
+        45,
+        51,
+        57
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_sc02_main_characters",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_sc02_main_characters",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_sc06_castle_actors",
+      "label": "spm_sc06_castle_actors",
+      "collection": "spm_sc06_castle_actors",
+      "source": "spritemap",
+      "scenes": [
+        6,
+        11
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_sc06_castle_actors",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_sc06_castle_actors",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_solidarm",
+      "label": "spm_solidarm",
+      "collection": "spm_solidarm",
+      "source": "spritemap",
+      "scenes": [
+        234
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_solidarm",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_solidarm",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spm_southcape_sprites",
+      "label": "spm_southcape_sprites",
+      "collection": "spm_southcape_sprites",
+      "source": "spritemap",
+      "scenes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        154
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_southcape_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_southcape_sprites",
+          "srcColor": 32,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_title_actors",
+      "label": "spm_title_actors",
+      "collection": "spm_title_actors",
+      "source": "spritemap",
+      "scenes": [
+        252
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_title_actors",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_southcape_sprites",
+          "srcColor": 0,
+          "count": 128,
+          "dstColor": 0
+        },
+        {
+          "file": "pal_title_actors",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_tunnel_enemies",
+      "label": "spm_tunnel_enemies #1 (scene $6D $6E $70 +3)",
+      "collection": "spm_tunnel_enemies",
+      "source": "spritemap",
+      "scenes": [
+        109,
+        110,
+        112,
+        113,
+        114,
+        115
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_tunnel_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_tunnel_enemies",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_tunnel_enemies#2",
+      "label": "spm_tunnel_enemies #2 (scene $6F)",
+      "collection": "spm_tunnel_enemies",
+      "source": "spritemap",
+      "scenes": [
+        111
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_tunnel_enemies",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_tunnel_enemies_dark",
+          "srcColor": 0,
+          "count": 16,
+          "dstColor": 64
+        }
+      ]
+    },
+    {
+      "id": "spm_vampires",
+      "label": "spm_vampires #1 (scene $67)",
+      "collection": "spm_vampires",
+      "source": "spritemap",
+      "scenes": [
+        103
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_vampires",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_vampires",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_vampires#2",
+      "label": "spm_vampires #2 (scene $F4)",
+      "collection": "spm_vampires",
+      "source": "spritemap",
+      "scenes": [
+        244
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_vampires",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_vampires_dark",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_village_sprites",
+      "label": "spm_village_sprites",
+      "collection": "spm_village_sprites",
+      "source": "spritemap",
+      "scenes": [
+        172,
+        173,
+        174
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_village_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_village_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_viper",
+      "label": "spm_viper #1 (scene $55 $E2)",
+      "collection": "spm_viper",
+      "source": "spritemap",
+      "scenes": [
+        85,
+        226
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_viper",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_viper",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_viper#2",
+      "label": "spm_viper #2 (scene $F3)",
+      "collection": "spm_viper",
+      "source": "spritemap",
+      "scenes": [
+        243
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_viper",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_viper_dark",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_watermia_lances_sprites",
+      "label": "spm_watermia_lances_sprites",
+      "collection": "spm_watermia_lances_sprites",
+      "source": "spritemap",
+      "scenes": [
+        122
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_watermia_lances_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_watermia_lances_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "spm_watermia_sprites",
+      "label": "spm_watermia_sprites",
+      "collection": "spm_watermia_sprites",
+      "source": "spritemap",
+      "scenes": [
+        120,
+        123,
+        124,
+        125,
+        126
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_watermia_sprites",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "pal_watermia_sprites",
+          "srcColor": 0,
+          "count": 96,
+          "dstColor": 32
+        }
+      ]
+    },
+    {
+      "id": "sprite_1607B0",
+      "label": "sprite_1607B0",
+      "collection": "sprite_1607B0",
+      "source": "spritemap",
+      "scenes": [
+        232
+      ],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": {
+        "file": "gfx_0D2D78",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "palettes": [
+        {
+          "file": "palette_1E6273",
+          "srcColor": 0,
+          "count": 112,
+          "dstColor": 16
+        }
+      ]
+    },
+    {
+      "id": "spriteset_adrift_wave",
+      "label": "spriteset_adrift_wave",
+      "collection": "spriteset_adrift_wave",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_aura",
+      "label": "spriteset_aura",
+      "collection": "spriteset_aura",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_dark_friar",
+      "label": "spriteset_dark_friar",
+      "collection": "spriteset_dark_friar",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_darkgaia_projectile",
+      "label": "spriteset_darkgaia_projectile",
+      "collection": "spriteset_darkgaia_projectile",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_freedan",
+      "label": "spriteset_freedan",
+      "collection": "spriteset_freedan",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_freedan_fx",
+      "label": "spriteset_freedan_fx",
+      "collection": "spriteset_freedan_fx",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_freejia_tilefx",
+      "label": "spriteset_freejia_tilefx",
+      "collection": "spriteset_freejia_tilefx",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_npc_props",
+      "label": "spriteset_npc_props",
+      "collection": "spriteset_npc_props",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_pickups_effects",
+      "label": "spriteset_pickups_effects",
+      "collection": "spriteset_pickups_effects",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_shadow",
+      "label": "spriteset_shadow",
+      "collection": "spriteset_shadow",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_shadow_aura_body",
+      "label": "spriteset_shadow_aura_body",
+      "collection": "spriteset_shadow_aura_body",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_shadow_fx",
+      "label": "spriteset_shadow_fx",
+      "collection": "spriteset_shadow_fx",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_snake_pit_fx",
+      "label": "spriteset_snake_pit_fx",
+      "collection": "spriteset_snake_pit_fx",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_transform_poses",
+      "label": "spriteset_transform_poses",
+      "collection": "spriteset_transform_poses",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_will",
+      "label": "spriteset_will",
+      "collection": "spriteset_will",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    },
+    {
+      "id": "spriteset_will_abilities",
+      "label": "spriteset_will_abilities",
+      "collection": "spriteset_will_abilities",
+      "source": "sprite-set",
+      "scenes": [],
+      "page1": {
+        "file": "gfx_000000",
+        "srcOffset": 0,
+        "length": 8192,
+        "dstOffset": 0
+      },
+      "page2": null,
+      "palettes": []
+    }
+  ]
+}

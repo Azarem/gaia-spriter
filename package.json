@@ -1,0 +1,25 @@
+{
+  "name": "gaia-spriter",
+  "version": "0.1.0",
+  "description": "Browser-based SNES sprite-set viewer",
+  "type": "module",
+  "scripts": {
+    "bundles": "tsx scripts/generate-bundles.ts",
+    "payload": "tsx scripts/build-payload.ts",
+    "build": "npm run payload && tsdown",
+    "bundle-app": "tsdown",
+    "dev": "npm run build && npx serve",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.scripts.json"
+  },
+  "author": "GaiaLabs Team",
+  "license": "MIT",
+  "dependencies": {
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsdown": "^0.22.14",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.3"
+  }
+}
